@@ -21,8 +21,7 @@ const LotteryEntrance = () => {
     params: {},
     msgValue: entranceFee,
   });
-  console.log(isFetching)
-  console.log(isLoading)
+  console.log(isWeb3Enabled)
 
   const { runContractFunction: getEntranceFee } = useWeb3Contract({
     abi: contractAbi,
